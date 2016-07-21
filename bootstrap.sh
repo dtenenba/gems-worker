@@ -5,7 +5,7 @@ set -x
 # The following line gets replaced by my_app by with
 # environment variable definitions.
 
-# __ENVIRONMENT_VARAIBLE_DEFS__
+# __ENVIRONMENT_VARIABLE_DEFS__
 
 apt-get update
 apt-get install -y git openjdk-8-jre python python-pip
