@@ -7,6 +7,11 @@ set -x
 
 # __ENVIRONMENT_VARIABLE_DEFS__
 
+# After the replacement happens, there should be
+# environment variables defined called:
+# SESSION_ID, PROJECT_ID, TOKEN, REGION, SAMPLE, HLA_CLASS,
+# PRIMER_MASK_VERSION, APP_SESSION_NAME
+
 apt-get update
 apt-get install -y git openjdk-8-jre python python-pip
 
